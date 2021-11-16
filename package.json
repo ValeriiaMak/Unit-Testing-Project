@@ -4,7 +4,8 @@
   "description": "unit testing with mocha",
   "main": "index.js",
   "scripts": {
-    "test": "mocha"
+    "test": "mocha",
+    "coverage": "nyc npm run test"
   },
   "keywords": [
     "mocha",
@@ -18,6 +19,12 @@
     "eslint": "^8.2.0",
     "eslint-config-google": "^0.14.0",
     "mocha": "^9.1.3",
-    "mochawesome": "^7.0.1"
+    "mochawesome": "^7.0.1",
+    "nyc": "^15.1.0"
+  },
+  "repository": {
+    "nyc":{
+      "reporter": "html"
+    }
   }
 }

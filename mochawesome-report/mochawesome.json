@@ -5,9 +5,9 @@
     "passes": 16,
     "pending": 0,
     "failures": 0,
-    "start": "2021-11-15T20:20:09.833Z",
-    "end": "2021-11-15T20:20:09.867Z",
-    "duration": 34,
+    "start": "2021-11-16T15:45:52.796Z",
+    "end": "2021-11-16T15:45:52.814Z",
+    "duration": 18,
     "testsRegistered": 16,
     "passPercent": 100,
     "pendingPercent": 0,
@@ -18,7 +18,7 @@
   },
   "results": [
     {
-      "uuid": "c7839b94-7c0c-4225-8a03-993f6ce68f37",
+      "uuid": "6fd9cc2a-db86-4b1c-b01e-9fb26448c9ce",
       "title": "",
       "fullFile": "",
       "file": "",
@@ -27,7 +27,7 @@
       "tests": [],
       "suites": [
         {
-          "uuid": "757b1750-7a39-4e8a-8699-91f0f40568c3",
+          "uuid": "3f21a22e-00a3-4dda-abbd-dee5d0d8e92a",
           "title": "add positive scenarios",
           "fullFile": "D:\\JS projects\\Unit Testing Project\\test\\specs\\add.spec.js",
           "file": "\\test\\specs\\add.spec.js",
@@ -45,8 +45,8 @@
               "context": null,
               "code": "validator = new Calculator();",
               "err": {},
-              "uuid": "285a0a28-7792-4943-a0b1-f81612d9d73e",
-              "parentUUID": "757b1750-7a39-4e8a-8699-91f0f40568c3",
+              "uuid": "eaa1e216-e3ef-4bc1-a4f9-2a9150dbc991",
+              "parentUUID": "3f21a22e-00a3-4dda-abbd-dee5d0d8e92a",
               "isHook": true,
               "skipped": false
             }
@@ -65,8 +65,8 @@
               "context": null,
               "code": "validator = null;",
               "err": {},
-              "uuid": "814c5046-c793-4d99-ace6-086d5e591532",
-              "parentUUID": "757b1750-7a39-4e8a-8699-91f0f40568c3",
+              "uuid": "54da50fe-00b4-47a9-827f-f5b05c751f77",
+              "parentUUID": "3f21a22e-00a3-4dda-abbd-dee5d0d8e92a",
               "isHook": true,
               "skipped": false
             }
@@ -85,8 +85,8 @@
               "context": null,
               "code": "expect(validator.add(1, 2, 3, 4)).to.be.equal(10);",
               "err": {},
-              "uuid": "0028cddd-0cff-46b7-bbc2-17fffd4b9612",
-              "parentUUID": "757b1750-7a39-4e8a-8699-91f0f40568c3",
+              "uuid": "eed1b9f4-aecf-41a5-9c6f-f8be6cd1a93d",
+              "parentUUID": "3f21a22e-00a3-4dda-abbd-dee5d0d8e92a",
               "isHook": false,
               "skipped": false
             },
@@ -103,8 +103,8 @@
               "context": null,
               "code": "expect(validator.add(100, 200, 564)).to.be.equal(864);",
               "err": {},
-              "uuid": "6b02e153-5fdc-435f-a4ef-55f1ee078c24",
-              "parentUUID": "757b1750-7a39-4e8a-8699-91f0f40568c3",
+              "uuid": "b0cf62ac-ea05-416f-b370-1cef9b678a36",
+              "parentUUID": "3f21a22e-00a3-4dda-abbd-dee5d0d8e92a",
               "isHook": false,
               "skipped": false
             },
@@ -112,7 +112,7 @@
               "title": "should return sum of non integers",
               "fullTitle": "add positive scenarios should return sum of non integers",
               "timedOut": false,
-              "duration": 1,
+              "duration": 0,
               "state": "passed",
               "speed": "fast",
               "pass": true,
@@ -121,8 +121,8 @@
               "context": null,
               "code": "expect(validator.add(1.5, 2)).to.be.equal(3.5);",
               "err": {},
-              "uuid": "09a41f10-d8f8-496c-9703-735bf3d260f8",
-              "parentUUID": "757b1750-7a39-4e8a-8699-91f0f40568c3",
+              "uuid": "a6d8fce2-369d-4848-a7a7-a753b95b3bc3",
+              "parentUUID": "3f21a22e-00a3-4dda-abbd-dee5d0d8e92a",
               "isHook": false,
               "skipped": false
             },
@@ -139,8 +139,8 @@
               "context": null,
               "code": "expect(validator.add(-2000, -3000)).to.be.equal(-5000);",
               "err": {},
-              "uuid": "626cdb14-86db-491f-8a30-0aa8de36041b",
-              "parentUUID": "757b1750-7a39-4e8a-8699-91f0f40568c3",
+              "uuid": "6108c349-4cf3-4064-9a75-7d099e1fcf45",
+              "parentUUID": "3f21a22e-00a3-4dda-abbd-dee5d0d8e92a",
               "isHook": false,
               "skipped": false
             },
@@ -157,30 +157,30 @@
               "context": null,
               "code": "expect(validator.add(1.5, 2345678, -765, 0)).to.be.equal(2344914.5);",
               "err": {},
-              "uuid": "4107a7b9-da92-4eb6-ba2e-15dc00ab167f",
-              "parentUUID": "757b1750-7a39-4e8a-8699-91f0f40568c3",
+              "uuid": "48797ea2-1d33-4def-ac68-4585d3f51e3f",
+              "parentUUID": "3f21a22e-00a3-4dda-abbd-dee5d0d8e92a",
               "isHook": false,
               "skipped": false
             }
           ],
           "suites": [],
           "passes": [
-            "0028cddd-0cff-46b7-bbc2-17fffd4b9612",
-            "6b02e153-5fdc-435f-a4ef-55f1ee078c24",
-            "09a41f10-d8f8-496c-9703-735bf3d260f8",
-            "626cdb14-86db-491f-8a30-0aa8de36041b",
-            "4107a7b9-da92-4eb6-ba2e-15dc00ab167f"
+            "eed1b9f4-aecf-41a5-9c6f-f8be6cd1a93d",
+            "b0cf62ac-ea05-416f-b370-1cef9b678a36",
+            "a6d8fce2-369d-4848-a7a7-a753b95b3bc3",
+            "6108c349-4cf3-4064-9a75-7d099e1fcf45",
+            "48797ea2-1d33-4def-ac68-4585d3f51e3f"
           ],
           "failures": [],
           "pending": [],
           "skipped": [],
-          "duration": 2,
+          "duration": 1,
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000
         },
         {
-          "uuid": "b21b0044-363f-4732-91bb-ca54ad42c898",
+          "uuid": "81bfbf56-5b74-4af9-8c3b-403c4e1a5902",
           "title": "add negative scenarios",
           "fullFile": "D:\\JS projects\\Unit Testing Project\\test\\specs\\add.spec.js",
           "file": "\\test\\specs\\add.spec.js",
@@ -198,8 +198,8 @@
               "context": null,
               "code": "validator = new Calculator();",
               "err": {},
-              "uuid": "5c13a110-f625-4407-8c76-f991e75b5ccb",
-              "parentUUID": "b21b0044-363f-4732-91bb-ca54ad42c898",
+              "uuid": "8bccee5b-0dbb-4a7b-ac63-4a9178add592",
+              "parentUUID": "81bfbf56-5b74-4af9-8c3b-403c4e1a5902",
               "isHook": true,
               "skipped": false
             }
@@ -218,8 +218,8 @@
               "context": null,
               "code": "validator = null;",
               "err": {},
-              "uuid": "6c709574-8648-44bb-a6b5-9d8d7afd3969",
-              "parentUUID": "b21b0044-363f-4732-91bb-ca54ad42c898",
+              "uuid": "0d18ed87-4122-4b29-96b4-53074966bb8a",
+              "parentUUID": "81bfbf56-5b74-4af9-8c3b-403c4e1a5902",
               "isHook": true,
               "skipped": false
             }
@@ -238,8 +238,8 @@
               "context": null,
               "code": "// eslint-disable-next-line max-len\nexpect(() => validator.add('a', 2)).to.throw(`[a,2] is not an array of \"Numbers\"`);",
               "err": {},
-              "uuid": "15c58265-7af0-47fe-a77f-e430ba838eb8",
-              "parentUUID": "b21b0044-363f-4732-91bb-ca54ad42c898",
+              "uuid": "5f02d342-133a-4568-b5a9-6877ab279ad0",
+              "parentUUID": "81bfbf56-5b74-4af9-8c3b-403c4e1a5902",
               "isHook": false,
               "skipped": false
             },
@@ -256,8 +256,8 @@
               "context": null,
               "code": "// eslint-disable-next-line max-len\nexpect(() => validator.add(' ', 2)).to.throw(`[ ,2] is not an array of \"Numbers\"`);",
               "err": {},
-              "uuid": "49ab7026-1b3d-4b07-9255-38635c940347",
-              "parentUUID": "b21b0044-363f-4732-91bb-ca54ad42c898",
+              "uuid": "aadf0cd7-4347-45eb-8f37-f82a87e8f265",
+              "parentUUID": "81bfbf56-5b74-4af9-8c3b-403c4e1a5902",
               "isHook": false,
               "skipped": false
             },
@@ -274,17 +274,17 @@
               "context": null,
               "code": "// eslint-disable-next-line max-len\nexpect(() => validator.add('_', 2)).to.throw(`[_,2] is not an array of \"Numbers\"`);",
               "err": {},
-              "uuid": "5edf8051-b67c-4c5c-9e3b-a868e1e2c9b5",
-              "parentUUID": "b21b0044-363f-4732-91bb-ca54ad42c898",
+              "uuid": "2a6bcd9a-ab30-4430-985c-cfa8906d6da1",
+              "parentUUID": "81bfbf56-5b74-4af9-8c3b-403c4e1a5902",
               "isHook": false,
               "skipped": false
             }
           ],
           "suites": [],
           "passes": [
-            "15c58265-7af0-47fe-a77f-e430ba838eb8",
-            "49ab7026-1b3d-4b07-9255-38635c940347",
-            "5edf8051-b67c-4c5c-9e3b-a868e1e2c9b5"
+            "5f02d342-133a-4568-b5a9-6877ab279ad0",
+            "aadf0cd7-4347-45eb-8f37-f82a87e8f265",
+            "2a6bcd9a-ab30-4430-985c-cfa8906d6da1"
           ],
           "failures": [],
           "pending": [],
@@ -295,7 +295,7 @@
           "_timeout": 2000
         },
         {
-          "uuid": "e8d2c13f-ca94-445e-9c7c-5ec122dbab45",
+          "uuid": "e413ca69-c89d-43fe-a395-5dd1b7617342",
           "title": "multiply positive scenarios",
           "fullFile": "D:\\JS projects\\Unit Testing Project\\test\\specs\\multiply.spec.js",
           "file": "\\test\\specs\\multiply.spec.js",
@@ -313,8 +313,8 @@
               "context": null,
               "code": "validator = new Calculator();",
               "err": {},
-              "uuid": "b8c3445a-5d46-46db-8b3b-114c80df323a",
-              "parentUUID": "e8d2c13f-ca94-445e-9c7c-5ec122dbab45",
+              "uuid": "934fea82-9c8a-4723-9df1-dfa4723628b8",
+              "parentUUID": "e413ca69-c89d-43fe-a395-5dd1b7617342",
               "isHook": true,
               "skipped": false
             }
@@ -333,8 +333,8 @@
               "context": null,
               "code": "validator = null;",
               "err": {},
-              "uuid": "d00c2acc-4e3e-41de-bb85-b6ed5461c7a6",
-              "parentUUID": "e8d2c13f-ca94-445e-9c7c-5ec122dbab45",
+              "uuid": "33160c98-9497-4abd-9d43-42b13e0d5486",
+              "parentUUID": "e413ca69-c89d-43fe-a395-5dd1b7617342",
               "isHook": true,
               "skipped": false
             }
@@ -353,8 +353,8 @@
               "context": null,
               "code": "expect(validator.multiply(1, 2, 3, 4)).to.be.equal(24);",
               "err": {},
-              "uuid": "71f8c6c5-0317-4f13-9687-dd6d828958ab",
-              "parentUUID": "e8d2c13f-ca94-445e-9c7c-5ec122dbab45",
+              "uuid": "769d5022-20eb-4e39-ac21-712aa4dd9b70",
+              "parentUUID": "e413ca69-c89d-43fe-a395-5dd1b7617342",
               "isHook": false,
               "skipped": false
             },
@@ -371,8 +371,8 @@
               "context": null,
               "code": "expect(validator.multiply(100, 200, 564)).to.be.equal(11280000);",
               "err": {},
-              "uuid": "0c486957-63db-4262-9c2d-9c1aeb9901c6",
-              "parentUUID": "e8d2c13f-ca94-445e-9c7c-5ec122dbab45",
+              "uuid": "e1765e59-730c-4072-8a34-00b9b317f254",
+              "parentUUID": "e413ca69-c89d-43fe-a395-5dd1b7617342",
               "isHook": false,
               "skipped": false
             },
@@ -389,8 +389,8 @@
               "context": null,
               "code": "expect(validator.multiply(1.5, 2)).to.be.equal(3);",
               "err": {},
-              "uuid": "df1fe028-b181-4cb5-878b-b5bd000653cf",
-              "parentUUID": "e8d2c13f-ca94-445e-9c7c-5ec122dbab45",
+              "uuid": "47b95ace-a703-41b4-a1f3-3adecf9547a0",
+              "parentUUID": "e413ca69-c89d-43fe-a395-5dd1b7617342",
               "isHook": false,
               "skipped": false
             },
@@ -407,8 +407,8 @@
               "context": null,
               "code": "expect(validator.multiply(-2000, -3000)).to.be.equal(6000000);",
               "err": {},
-              "uuid": "9c2efbaf-aaae-4a82-bfd0-8d07da4f7925",
-              "parentUUID": "e8d2c13f-ca94-445e-9c7c-5ec122dbab45",
+              "uuid": "a8d1c8e0-d75f-4cfa-af7a-65642aba1183",
+              "parentUUID": "e413ca69-c89d-43fe-a395-5dd1b7617342",
               "isHook": false,
               "skipped": false
             },
@@ -425,19 +425,19 @@
               "context": null,
               "code": "expect(validator.multiply(1.5, 2345678, -765, 3)).to.be.equal(-8074996515);",
               "err": {},
-              "uuid": "92460750-173b-43ce-8fed-339a3e098d7f",
-              "parentUUID": "e8d2c13f-ca94-445e-9c7c-5ec122dbab45",
+              "uuid": "0aa5d49c-4323-42dd-af2b-261fe1d7af6e",
+              "parentUUID": "e413ca69-c89d-43fe-a395-5dd1b7617342",
               "isHook": false,
               "skipped": false
             }
           ],
           "suites": [],
           "passes": [
-            "71f8c6c5-0317-4f13-9687-dd6d828958ab",
-            "0c486957-63db-4262-9c2d-9c1aeb9901c6",
-            "df1fe028-b181-4cb5-878b-b5bd000653cf",
-            "9c2efbaf-aaae-4a82-bfd0-8d07da4f7925",
-            "92460750-173b-43ce-8fed-339a3e098d7f"
+            "769d5022-20eb-4e39-ac21-712aa4dd9b70",
+            "e1765e59-730c-4072-8a34-00b9b317f254",
+            "47b95ace-a703-41b4-a1f3-3adecf9547a0",
+            "a8d1c8e0-d75f-4cfa-af7a-65642aba1183",
+            "0aa5d49c-4323-42dd-af2b-261fe1d7af6e"
           ],
           "failures": [],
           "pending": [],
@@ -448,7 +448,7 @@
           "_timeout": 2000
         },
         {
-          "uuid": "466121e3-8fc2-4d9d-b469-72ae401c8a92",
+          "uuid": "98fc5760-aeef-4018-a395-013553ba0c3e",
           "title": "multiply negative scenarios",
           "fullFile": "D:\\JS projects\\Unit Testing Project\\test\\specs\\multiply.spec.js",
           "file": "\\test\\specs\\multiply.spec.js",
@@ -466,8 +466,8 @@
               "context": null,
               "code": "validator = new Calculator();",
               "err": {},
-              "uuid": "14ef0b1e-198a-46a3-a4ed-b606ba1e4c42",
-              "parentUUID": "466121e3-8fc2-4d9d-b469-72ae401c8a92",
+              "uuid": "e6a43665-0224-4b7d-a500-243d521e3a49",
+              "parentUUID": "98fc5760-aeef-4018-a395-013553ba0c3e",
               "isHook": true,
               "skipped": false
             }
@@ -486,8 +486,8 @@
               "context": null,
               "code": "validator = null;",
               "err": {},
-              "uuid": "39f9eb27-36bb-4b06-8ecc-5775934e79de",
-              "parentUUID": "466121e3-8fc2-4d9d-b469-72ae401c8a92",
+              "uuid": "6281debf-50d8-4196-8d98-54702e459bc9",
+              "parentUUID": "98fc5760-aeef-4018-a395-013553ba0c3e",
               "isHook": true,
               "skipped": false
             }
@@ -506,8 +506,8 @@
               "context": null,
               "code": "// eslint-disable-next-line max-len\nexpect(() => validator.multiply('a', 2)).to.throw(`[a,2] is not an array of \"Numbers\"`);",
               "err": {},
-              "uuid": "9ed99a8e-7f3e-49fb-8a7e-bf6becd3bf96",
-              "parentUUID": "466121e3-8fc2-4d9d-b469-72ae401c8a92",
+              "uuid": "27880599-93c8-4f97-9cbc-67ac1f9f4b18",
+              "parentUUID": "98fc5760-aeef-4018-a395-013553ba0c3e",
               "isHook": false,
               "skipped": false
             },
@@ -515,7 +515,7 @@
               "title": "should throw an error if there is an empty value",
               "fullTitle": "multiply negative scenarios should throw an error if there is an empty value",
               "timedOut": false,
-              "duration": 1,
+              "duration": 0,
               "state": "passed",
               "speed": "fast",
               "pass": true,
@@ -524,8 +524,8 @@
               "context": null,
               "code": "// eslint-disable-next-line max-len\nexpect(() => validator.multiply(' ', 2)).to.throw(`[ ,2] is not an array of \"Numbers\"`);",
               "err": {},
-              "uuid": "1660757f-5649-4cd1-8ccb-51edb9d8e8f0",
-              "parentUUID": "466121e3-8fc2-4d9d-b469-72ae401c8a92",
+              "uuid": "26b86f48-bb39-469a-ba0c-711cf8641424",
+              "parentUUID": "98fc5760-aeef-4018-a395-013553ba0c3e",
               "isHook": false,
               "skipped": false
             },
@@ -542,22 +542,22 @@
               "context": null,
               "code": "// eslint-disable-next-line max-len\nexpect(() => validator.multiply('_', 2)).to.throw(`[_,2] is not an array of \"Numbers\"`);",
               "err": {},
-              "uuid": "8df765a4-679e-4c20-82c5-7df3678b6ea4",
-              "parentUUID": "466121e3-8fc2-4d9d-b469-72ae401c8a92",
+              "uuid": "8f58dab5-289d-4da8-8641-127b50110680",
+              "parentUUID": "98fc5760-aeef-4018-a395-013553ba0c3e",
               "isHook": false,
               "skipped": false
             }
           ],
           "suites": [],
           "passes": [
-            "9ed99a8e-7f3e-49fb-8a7e-bf6becd3bf96",
-            "1660757f-5649-4cd1-8ccb-51edb9d8e8f0",
-            "8df765a4-679e-4c20-82c5-7df3678b6ea4"
+            "27880599-93c8-4f97-9cbc-67ac1f9f4b18",
+            "26b86f48-bb39-469a-ba0c-711cf8641424",
+            "8f58dab5-289d-4da8-8641-127b50110680"
           ],
           "failures": [],
           "pending": [],
           "skipped": [],
-          "duration": 1,
+          "duration": 0,
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000
