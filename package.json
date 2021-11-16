@@ -22,9 +22,7 @@
     "mochawesome": "^7.0.1",
     "nyc": "^15.1.0"
   },
-  "repository": {
-    "nyc":{
-      "reporter": "html"
-    }
+  "nyc": {
+    "reporter": "html"
   }
 }
